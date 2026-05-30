@@ -1,9 +1,8 @@
 {
-  "redirects": [
+  "rewrites": [
     {
       "source": "/(.*)",
-      "destination": "https://teka.eu.org/$1",
-      "permanent": true
+      "destination": "/api/index"
     }
   ]
 }
